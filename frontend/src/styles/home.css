@@ -1,0 +1,25 @@
+h1 {
+    z-index: 1;
+    position: absolute;
+    top: 30%; /* Move to 50% from the top of the container */
+    left: 50%; /* Move to 50% from the left of the container */
+    transform: translate(-50%, -50%);
+}
+
+img {
+    max-width: 100%;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero-img {
+    position: relative;
+    top: 0;
+    z-index: 0;
+}
+
+.about-img {
+    max-height: 300px;
+}
