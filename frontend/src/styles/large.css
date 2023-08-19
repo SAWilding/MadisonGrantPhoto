@@ -4,4 +4,39 @@
         margin: 0 auto;
         display: block;
     }
+
+    /* ==== HOME ==== */
+
+    .testimonials-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+        gap: 5px;
+    }
+
+    div.testimonial-card {
+        max-width: 275px;
+    }
+
+    .testimonial-card .testimonial-text {
+        margin-top: 0;
+        position: relative;
+        background-color: transparent;
+    }
+
+    .about-grid {
+        max-width: 1000px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    img.about-img {
+        padding: 1rem;
+        max-height: 500px;
+    }
+
+    .about-text {
+        margin: 3rem;
+    }
 }
