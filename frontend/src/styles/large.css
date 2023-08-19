@@ -5,6 +5,22 @@
         display: block;
     }
 
+    /* ==== NAVIGATION ==== */
+
+    #main-header nav {
+        position: relative;
+    }
+
+    #main-header ul {
+        margin: auto;
+        justify-content: center;
+        display: flex;
+    }
+
+    #main-header li.nav-item {
+        max-width: 100px;
+    }
+
     /* ==== HOME ==== */
 
     .testimonials-grid {

@@ -16,9 +16,12 @@ body {
 
 /* ==== HEADER ==== */
 
-#main-header {
+#main-header nav {
     background-color: aqua;
-    padding: 0.5rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
 }
 
 #main-header nav a {
@@ -35,6 +38,7 @@ body {
 }
 
 #main-header ul li {
+    margin: 0 1rem;
     display: block;
     list-style: none;
 }
