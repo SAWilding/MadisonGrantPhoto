@@ -37,6 +37,10 @@ img {
     max-height: 400px;
 }
 
+.about-text {
+    margin: 1rem;
+}
+
 /* ==== TESTIMONIAL CARD ==== */
 
 .testimonial-card {

@@ -16,12 +16,14 @@ body {
 
 /* ==== HEADER ==== */
 
-#main-header nav {
+#main-header .nav-menu {
     background-color: aqua;
     position: fixed;
     top: 0;
     width: 100%;
+    right: -100%;
     z-index: 5;
+    transition: right 0.3s ease-in-out;
 }
 
 #main-header nav a {
@@ -41,6 +43,25 @@ body {
     margin: 0 1rem;
     display: block;
     list-style: none;
+}
+
+/* === HAMBURGER MENU === */
+
+.burger-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 50px;
+    border: none;
+    z-index: 10;
+    background-color: transparent;
+}
+
+.top-line, .mid-line, .bot-line {
+    margin: 9px 0;
+    height: 3px;
+    width: 35px;
+    background-color: black;
 }
 
 /* ==== BODY ==== */

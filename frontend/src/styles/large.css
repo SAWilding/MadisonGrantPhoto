@@ -11,6 +11,10 @@
         position: relative;
     }
 
+    #main-header .nav-menu {
+        right: 0%;
+    }
+
     #main-header ul {
         margin: auto;
         justify-content: center;
@@ -19,6 +23,10 @@
 
     #main-header li.nav-item {
         max-width: 100px;
+    }
+
+    .burger-menu {
+        display: none;
     }
 
     /* ==== HOME ==== */
