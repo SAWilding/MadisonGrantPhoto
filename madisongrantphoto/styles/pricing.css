@@ -1,0 +1,38 @@
+/* #id .class */
+
+
+.heading{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.centered {
+    display: block;
+    margin: 0 auto;
+}
+.image-container {
+    position: relative;
+    display: inline-block; /* To contain the size of the container */
+}
+.image-container img {
+    max-width: 100%;
+}
+.image-text {
+    position: absolute;
+    top: 50%; /* Position the text vertically in the middle */
+    left: 50%; /* Position the text horizontally in the middle */
+    transform: translate(-50%, -50%); /* Center the text precisely */
+    /* background-color: rgba(0, 0, 0, 0.5); Semi-transparent background */
+    color: white; /* Text color */
+    padding: 10px; /* Add some padding around the text */
+    border-radius: 5px; /* Add rounded corners to the text box */
+    font-family: Snell Roundhand, cursive;
+    font-size: 3.25rem;
+}
+.pricing-amount {
+   text-align: center;
+
+}
+.pricing-packages-divider {
+    padding-left: 15%;
+    padding-right: 15%;
+}
