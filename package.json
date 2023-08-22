@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^4.4.5"
+    "fs-extra": "^11.1.1",
+    "vite": "^4.4.5",
+    "vite-plugin-copy": "^0.1.6"
   }
 }
