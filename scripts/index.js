@@ -32,5 +32,5 @@ function toggleNav() {
 }
 
 window.onload = () => {
-  toggleNav();
+  setTimeout(toggleNav, 100);
 };
