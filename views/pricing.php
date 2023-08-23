@@ -94,7 +94,7 @@
     
         </section>
     
-        
+    </main>
     <footer id="main-footer">
         <?php require_once $_SERVER["DOCUMENT_ROOT"] . "/MadisonGrantPhoto/snippets/footer.php"?>
     </footer>
