@@ -6,16 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Madison Grant Photo | Home</title>
 
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="styles/large.css">
-    <link rel="stylesheet" href="styles/home.css">
-    <link rel="shortcut icon" href="public/favicon.ico" type="image/png">
+    <link rel="stylesheet" href="/MadisonGrantPhoto/styles/styles.css">
+    <link rel="stylesheet" href="/MadisonGrantPhoto/styles/large.css">
+    <link rel="stylesheet" href="/MadisonGrantPhoto/styles/home.css">
+    <link rel="shortcut icon" href="/MadisonGrantPhoto/public/favicon.ico" type="image/png">
 
-    <script type="module" src="scripts/index.js"></script>
+    <script type="module" src="/MadisonGrantPhoto/scripts/index.js"></script>
 </head>
 
 <body>
-    <header id="main-header"></header>
+    <header id="main-header">
+        <?php require_once $_SERVER["DOCUMENT_ROOT"] . "/MadisonGrantPhoto/snippets/header.php"?>
+    </header>
     <main>
         <section class="hero">
             <img src="http://via.placeholder.com/800x400" alt="hero image" class="hero-img">
@@ -78,24 +80,10 @@
         </section>
 
     </main>
-    <footer id="main-footer"></footer>
+    <footer id="main-footer">
+        <?php require_once $_SERVER["DOCUMENT_ROOT"] . "/MadisonGrantPhoto/snippets/footer.php"?>
 
-    <script>
-        // Function to fetch and insert HTML snippets
-        async function insertSnippets() {
-            const headerResponse = await fetch('snippets/header.html');
-            const footerResponse = await fetch('snippets/footer.html');
-
-            const headerHTML = await headerResponse.text();
-            const footerHTML = await footerResponse.text();
-
-            document.getElementById('main-header').innerHTML = headerHTML;
-            document.getElementById('main-footer').innerHTML = footerHTML;
-        }
-
-        // Call the function to insert snippets when the page loads
-        insertSnippets();
-    </script>
+    </footer>
 </body>
 
 </html>

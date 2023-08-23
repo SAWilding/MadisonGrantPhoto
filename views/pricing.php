@@ -2,16 +2,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Madison Grant Photo | Pricing</title>
-    <link rel="stylesheet" href="../styles/pricing.css">
-    <link rel="stylesheet" href="../styles/styles.css">
-    <link rel="stylesheet" href="../styles/large.css">
-    <link rel="shortcut icon" href="../favicon.ico" type="image/png">
+    <link rel="stylesheet" href="/MadisonGrantPhoto/styles/pricing.css">
+    <link rel="stylesheet" href="/MadisonGrantPhoto/styles/styles.css">
+    <link rel="stylesheet" href="/MadisonGrantPhoto/styles/large.css">
+    <link rel="shortcut icon" href="/MadisonGrantPhoto/public/favicon.ico" type="image/png">
 
-    <script type="module" src="../scripts/index.js"></script>
+    <script type="module" src="/MadisonGrantPhoto/scripts/index.js"></script>
 </head>
 
 <body>
-    <header id="main-header"></header>
+    <header id="main-header">
+        <?php require_once $_SERVER["DOCUMENT_ROOT"] . "/MadisonGrantPhoto/snippets/header.php"?>
+    </header>
     <!-- <h1 class="heading">Pricing</h1> -->
     <section class="heading">
         <div class="image-container">
@@ -82,23 +84,9 @@
     </section>
 
     <img src="https://placekitten.com/300/250" alt="placeholder photo" class="centered">
-    <footer id="main-footer"></footer>
-    <script>
-        // Function to fetch and insert HTML snippets
-        async function insertSnippets() {
-            const headerResponse = await fetch('../snippets/header.html');
-            const footerResponse = await fetch('../snippets/footer.html');
-
-            const headerHTML = await headerResponse.text();
-            const footerHTML = await footerResponse.text();
-
-            document.getElementById('main-header').innerHTML = headerHTML;
-            document.getElementById('main-footer').innerHTML = footerHTML;
-        }
-
-        // Call the function to insert snippets when the page loads
-        insertSnippets();
-    </script>
+    <footer id="main-footer">
+        <?php require_once $_SERVER["DOCUMENT_ROOT"] . "/MadisonGrantPhoto/snippets/footer.php"?>
+    </footer>
 </body>
 
 </html>

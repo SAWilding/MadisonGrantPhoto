@@ -1,19 +1,19 @@
 <nav>
     <ul class="nav-menu">
         <li class="nav-item">
-            <a href="/index.html">Home</a>
+            <a href="/MadisonGrantPhoto/controllers/main/?action=home">Home</a>
         </li>
         <li class="nav-item">
-            <a href="/pages/portfolio.html">Portfolio</a>
+            <a href="/MadisonGrantPhoto/controllers/main/?action=portfolio">Portfolio</a>
         </li>
         <li class="nav-item">
-            <a href="/pages/pricing.html">Pricing</a>
+            <a href="/MadisonGrantPhoto/controllers/main/?action=pricing">Pricing</a>
         </li>
         <li class="nav-item">
-            <a href="/pages/contact.html">Contact</a>
+            <a href="/MadisonGrantPhoto/controllers/main/?action=contact">Contact</a>
         </li>
         <li class="nav-item">
-            <a href="/pages/about.html">About</a>
+            <a href="/MadisonGrantPhoto/controllers/main/?action=about">About</a>
         </li>
     </ul>
     <button class="burger-menu">
