@@ -14,6 +14,22 @@
     <header id="main-header"></header>
     <h1 class="heading">Portfolio</h1>
     <footer id="main-footer"></footer>
+    <script>
+        // Function to fetch and insert HTML snippets
+        async function insertSnippets() {
+            const headerResponse = await fetch('../snippets/header.html');
+            const footerResponse = await fetch('../snippets/footer.html');
+
+            const headerHTML = await headerResponse.text();
+            const footerHTML = await footerResponse.text();
+
+            document.getElementById('main-header').innerHTML = headerHTML;
+            document.getElementById('main-footer').innerHTML = footerHTML;
+        }
+
+        // Call the function to insert snippets when the page loads
+        insertSnippets();
+    </script>
 </body>
 
 </html>

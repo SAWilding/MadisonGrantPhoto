@@ -1,6 +1,6 @@
 import { loadHeaderFooter } from "./utils.js";
 
-loadHeaderFooter();
+// loadHeaderFooter();
 
 let menuIsOpen = false;
 
