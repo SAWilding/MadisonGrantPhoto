@@ -9,6 +9,21 @@
     display: block;
     margin: 0 auto;
 }
+#wedding1-image {
+    display: block;
+    margin: 0 auto;
+}
+
+#wedding2-image {
+    display: block;
+    margin: 0 auto;
+}
+
+#engagement-image {
+    display: block;
+    margin: 0 auto;
+}
+
 .image-container {
     position: relative;
     display: inline-block; /* To contain the size of the container */
@@ -30,9 +45,16 @@
 }
 .pricing-amount {
    text-align: center;
+   font-size: 75%;
 
 }
+.pricing-section-title {
+    text-align: center;
+}
 .pricing-packages-divider {
-    padding-left: 15%;
-    padding-right: 15%;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+.pricing-paragraphs {
+    text-align: center;
 }
