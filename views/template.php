@@ -16,7 +16,9 @@
     <header id="main-header">
         <?php require_once $_SERVER["DOCUMENT_ROOT"] . "/MadisonGrantPhoto/snippets/header.php"?>
     </header>
-    <h1 class="heading">Template</h1>
+    <main>
+        <h1 class="heading">Template</h1>
+    </main>
     <footer id="main-footer">
         <?php require_once $_SERVER["DOCUMENT_ROOT"] . "/MadisonGrantPhoto/snippets/footer.php"?>
     </footer>

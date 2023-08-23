@@ -1,5 +1,5 @@
 <?php 
-
+require_once "../../library/build-functions.php";
 
 $action = trim(filter_input(INPUT_POST, 'action', FILTER_SANITIZE_FULL_SPECIAL_CHARS));
 if ($action == NULL){
@@ -11,6 +11,7 @@ case "home":
     break;
 
 case "portfolio":
+    $portfolioList = buildPortfolio();
     include  $_SERVER["DOCUMENT_ROOT"] . '/MadisonGrantPhoto/views/portfolio.php';
     break;
 

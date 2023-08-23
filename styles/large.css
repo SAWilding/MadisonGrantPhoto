@@ -7,12 +7,9 @@
 
     /* ==== NAVIGATION ==== */
 
-    #main-header nav {
-        position: relative;
-    }
-
     #main-header .nav-menu {
         right: 0%;
+        position: relative;
     }
 
     #main-header ul {

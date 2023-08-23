@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,76 +16,79 @@
     <header id="main-header">
         <?php require_once $_SERVER["DOCUMENT_ROOT"] . "/MadisonGrantPhoto/snippets/header.php"?>
     </header>
-    <!-- <h1 class="heading">Pricing</h1> -->
-    <section class="heading">
-        <div class="image-container">
-            <img src="https://placekitten.com/700/200" alt="placeholder photo">
-            <div class="image-text">Pricing</div>
-        </div>
+    <main>
 
-    </section>
-
-
-    <!-- ---------------- ENGAGEMENT PRICING SECTION ---------------- -->
-    <section class="engagements">
-        <img class="centered" src="https://placekitten.com/160/288" alt="placeholder">
-
-        <h2 class="pricing-section-title">Engagements</h2>
-
-        <p class="pricing-paragraphs">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Eaque non quia expedita quam laborum! Sequi vitae temporibus provident nisi cupiditate, quasi in ex,
-            velit et eveniet corrupti a, repellendus laborum. Lorem ipsum dolor sit, amet consectetur adipisicing
-            elit.
-            Harum nihil ratione maiores laborum iusto explicabo error alias architecto. Nesciunt perferendis
-            blanditiis
-            eaque,
-            consectetur tempora molestiae consequuntur expli</p>
-
-        <hr class="pricing-packages-divider">
-        <h2 class="pricing-amount">$200</h2>
-
-
-    </section>
-
-
-    <!-- ---------------- WEDDING 1 PRICING SECTION ---------------- -->
-    <section class="wedding1">
-        <h2 class="pricing-section-title">Wedding Package A</h2>
-        <h2 class="pricing-amount">$700</h2>
-        <p class="pricing-paragraphs">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Eaque non quia expedita quam laborum! Sequi vitae temporibus provident nisi cupiditate, quasi in ex,
-            velit et eveniet corrupti a, repellendus laborum. Lorem ipsum dolor sit, amet consectetur adipisicing
-            elit.
-            Harum nihil ratione maiores laborum iusto explicabo error alias architecto. Nesciunt perferendis
-            blanditiis
-            eaque,
-            consectetur tempora molestiae consequuntur expli</p>
-        <img class="centered" src="https://placekitten.com/160/288" alt="placeholder">
-
-
-
-    </section>
-
-
-    <!-- ---------------- ENGAGEMENT PRICING SECTION ---------------- -->
-    <section class="engagements">
-        <h2 class="pricing-section-title">Engagements</h2>
-        <h2 class="pricing-amount">$200</h2>
-        <p class="pricing-paragraphs">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Eaque non quia expedita quam laborum! Sequi vitae temporibus provident nisi cupiditate, quasi in ex,
-            velit et eveniet corrupti a, repellendus laborum. Lorem ipsum dolor sit, amet consectetur adipisicing
-            elit.
-            Harum nihil ratione maiores laborum iusto explicabo error alias architecto. Nesciunt perferendis
-            blanditiis
-            eaque,
-            consectetur tempora molestiae consequuntur expli</p>
-        <img class="centered" src="https://placekitten.com/160/288" alt="placeholder">
-
-
-
-    </section>
-
-    <img src="https://placekitten.com/300/250" alt="placeholder photo" class="centered">
+        <!-- <h1 class="heading">Pricing</h1> -->
+        <section class="heading">
+            <div class="image-container">
+                <img src="https://placekitten.com/700/200" alt="placeholder photo">
+                <div class="image-text">Pricing</div>
+            </div>
+    
+        </section>
+    
+    
+        <!-- ---------------- ENGAGEMENT PRICING SECTION ---------------- -->
+        <section class="engagements">
+            <img class="centered" src="https://placekitten.com/160/288" alt="placeholder">
+    
+            <h2 class="pricing-section-title">Engagements</h2>
+    
+            <p class="pricing-paragraphs">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Eaque non quia expedita quam laborum! Sequi vitae temporibus provident nisi cupiditate, quasi in ex,
+                velit et eveniet corrupti a, repellendus laborum. Lorem ipsum dolor sit, amet consectetur adipisicing
+                elit.
+                Harum nihil ratione maiores laborum iusto explicabo error alias architecto. Nesciunt perferendis
+                blanditiis
+                eaque,
+                consectetur tempora molestiae consequuntur expli</p>
+    
+            <hr class="pricing-packages-divider">
+            <h2 class="pricing-amount">$200</h2>
+    
+    
+        </section>
+    
+    
+        <!-- ---------------- WEDDING 1 PRICING SECTION ---------------- -->
+        <section class="wedding1">
+            <h2 class="pricing-section-title">Wedding Package A</h2>
+            <h2 class="pricing-amount">$700</h2>
+            <p class="pricing-paragraphs">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Eaque non quia expedita quam laborum! Sequi vitae temporibus provident nisi cupiditate, quasi in ex,
+                velit et eveniet corrupti a, repellendus laborum. Lorem ipsum dolor sit, amet consectetur adipisicing
+                elit.
+                Harum nihil ratione maiores laborum iusto explicabo error alias architecto. Nesciunt perferendis
+                blanditiis
+                eaque,
+                consectetur tempora molestiae consequuntur expli</p>
+            <img class="centered" src="https://placekitten.com/160/288" alt="placeholder">
+    
+    
+    
+        </section>
+    
+    
+        <!-- ---------------- ENGAGEMENT PRICING SECTION ---------------- -->
+        <section class="engagements">
+            <h2 class="pricing-section-title">Engagements</h2>
+            <h2 class="pricing-amount">$200</h2>
+            <p class="pricing-paragraphs">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Eaque non quia expedita quam laborum! Sequi vitae temporibus provident nisi cupiditate, quasi in ex,
+                velit et eveniet corrupti a, repellendus laborum. Lorem ipsum dolor sit, amet consectetur adipisicing
+                elit.
+                Harum nihil ratione maiores laborum iusto explicabo error alias architecto. Nesciunt perferendis
+                blanditiis
+                eaque,
+                consectetur tempora molestiae consequuntur expli</p>
+            <img class="centered" src="https://placekitten.com/160/288" alt="placeholder">
+    
+    
+    
+        </section>
+    
+        <img src="https://placekitten.com/300/250" alt="placeholder photo" class="centered">
+    </main>
     <footer id="main-footer">
         <?php require_once $_SERVER["DOCUMENT_ROOT"] . "/MadisonGrantPhoto/snippets/footer.php"?>
     </footer>

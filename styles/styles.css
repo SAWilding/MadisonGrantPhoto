@@ -4,6 +4,7 @@
     --black: #000000;
     --white: #ffff;
     --off-white: #f3f3f3;
+
 }
 
 /* ==== BASE STYLES ==== */
@@ -17,7 +18,7 @@ body {
 /* ==== HEADER ==== */
 
 #main-header .nav-menu {
-    background-color: aqua;
+    background-color: transparent;
     position: fixed;
     top: 0;
     width: 100%;
@@ -81,7 +82,18 @@ p {
 /* ==== FOOTER ==== */
 
 #main-footer {
-    height: 100px;
-    padding: 0.5rem;
-    background-color: antiquewhite;
+    margin-top: 0.5rem;
+    color: white;
+    padding: 1rem;
+    background-color: var(--black);
+}
+
+.social-media h2 {
+    margin: 1rem 0;
+    border-bottom: 1px solid white;
+    max-width: 50%;
+}
+
+.social-icon img{
+    height: 50px;
 }

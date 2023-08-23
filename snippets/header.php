@@ -16,9 +16,9 @@
             <a href="/MadisonGrantPhoto/controllers/main/?action=about">About</a>
         </li>
     </ul>
-    <button class="burger-menu">
+    <div class="burger-menu">
         <div class="top-line"></div>
         <div class="mid-line"></div>
         <div class="bot-line"></div>
-    </button>
+    </div>
 </nav>
