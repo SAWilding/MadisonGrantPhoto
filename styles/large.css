@@ -12,6 +12,10 @@
         position: relative;
     }
 
+    #main-header .nav-menu a {
+        max-width: 100%;
+    }
+
     #main-header ul {
         margin: auto;
         justify-content: center;

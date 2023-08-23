@@ -11,14 +11,13 @@
 
 body {
     margin: 0;
-    background-color: var(--off-white);
 }
 
 
 /* ==== HEADER ==== */
 
 #main-header .nav-menu {
-    background-color: transparent;
+    background-color: var(--off-white);
     position: fixed;
     top: 0;
     width: 100%;
@@ -28,11 +27,13 @@ body {
 }
 
 #main-header nav a {
+    color: var(--black);
     border: 1px solid black;
     display: block;
     padding: 0.5rem;
     margin: 5px;
     text-decoration: none;
+    max-width: 50%;
 }
 
 #main-header ul {
@@ -49,6 +50,7 @@ body {
 /* === HAMBURGER MENU === */
 
 .burger-menu {
+    margin: 1rem;
     position: fixed;
     top: 0;
     right: 0;

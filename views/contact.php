@@ -20,12 +20,25 @@
     <main>
         <h1 class="heading">Contact</h1>
         <form action="" class="contact-form">
-            <label for="email">Email:</label>
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email</label>
             <input type="email" id="email" name="email">
-            <label for="phone">Phone Number:</label>
+            <label for="phone">Phone Number</label>
             <input type="phone" id="phone" name="phone">
-            <label for="message">Message:</label>
+            <label for="shoot">Type of Shoot</label>
+            <select id="shoot" name="shoot">
+                <option value="wedding">Wedding</option>
+                <option value="graduation">Graduation</option>
+                <option value="family">Family</option>
+                <option value="individual">Individual</option>
+                <option value="other">Other</option>
+            </select>
+            <label for="date">Shoot Date</label>
+            <input type="date" id="date" name="date">
+            <label for="message">Message</label>
             <textarea id="message" name="message"></textarea> 
+            <input type="submit" value="Send">
         </form>
     </main>
     <footer id="main-footer">
