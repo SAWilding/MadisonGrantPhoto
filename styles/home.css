@@ -1,35 +1,40 @@
-h1 {
-    z-index: 1;
-    position: absolute;
-    top: 30%; /* Move to 50% from the top of the container */
-    left: 50%; /* Move to 50% from the left of the container */
-    transform: translate(-50%, -50%);
-}
-
 h2 {
-    border-bottom: 1px solid black;
-    max-width: 90%;
-    margin: 0.5rem auto;
-    display: block;
+    text-align: center;
 }
 
 img {
     max-width: 100%;
 }
 
+/* ==== CAROUSEL ==== */
+
 .hero {
-    position: relative;
+    margin-top: 5rem;
 }
 
-.hero-img {
-    position: relative;
-    top: 0;
-    z-index: 0;
+.carousel img {
+    max-height: 375px;
     display: block;
-    margin: 0 auto;
+    padding: 0.5rem;
+}
+
+.carousel {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 /* ==== ABOUT ==== */
+
+.about {
+    margin: 1rem 0;
+}
+
+.meet-mg {
+    margin: 0;
+    font-size: 70pt;
+    padding: 0;
+}
 
 .about-img {
     display: block;
@@ -38,10 +43,33 @@ img {
 }
 
 .about-text {
-    margin: 1rem;
+    line-height: 2rem;
+    font-size: 16pt;
+    text-align: center;
+    margin: 0 3rem;
+}
+
+.more-btn {
+    padding: 0.25rem;
+    width: 200px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    display: block;
+    margin: 1rem auto;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.more-btn:hover {
+    background-color: lightgray;
 }
 
 /* ==== TESTIMONIAL CARD ==== */
+
+.testimonials {
+    margin: 0 3rem;
+}
 
 .testimonial-card {
     max-width: 400px;
@@ -53,8 +81,16 @@ img {
 .testimonial-card p {
     padding: 0.5rem;
     max-width: 400px;
-    z-index: 1;
-    position: absolute;
-    bottom: 0; 
     background-color: rgba(255, 255, 255, 0.25);   
+}
+
+.testimonial-text {
+    font-size: 14pt;
+    text-align: center;
+}
+
+.testimonial-name {
+    margin: 0;
+    padding: 0;
+    font-size: 75pt;
 }

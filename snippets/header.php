@@ -1,19 +1,23 @@
 <nav>
     <ul class="nav-menu">
         <li class="nav-item">
-            <a href="/MadisonGrantPhoto/controllers/main/?action=home">Home</a>
+            <a href="/MadisonGrantPhoto/controllers/main/?action=home">HOME</a>
         </li>
         <li class="nav-item">
-            <a href="/MadisonGrantPhoto/controllers/main/?action=portfolio">Portfolio</a>
+            <a href="/MadisonGrantPhoto/controllers/main/?action=couples">COUPLES</a>
         </li>
         <li class="nav-item">
-            <a href="/MadisonGrantPhoto/controllers/main/?action=pricing">Pricing</a>
+            <a href="/MadisonGrantPhoto/controllers/main/?action=portraits">PORTRAITS</a>
+        </li>
+        <img src="/MadisonGrantPhoto/public/NewLogo.jpg" alt="Madison Grant Photo Logo" class="logo">
+        <li class="nav-item">
+            <a href="/MadisonGrantPhoto/controllers/main/?action=pricing">PRICING</a>
         </li>
         <li class="nav-item">
-            <a href="/MadisonGrantPhoto/controllers/main/?action=contact">Contact</a>
+            <a href="/MadisonGrantPhoto/controllers/main/?action=contact">CONTACT</a>
         </li>
         <li class="nav-item">
-            <a href="/MadisonGrantPhoto/controllers/main/?action=about">About</a>
+            <a href="/MadisonGrantPhoto/controllers/main/?action=about">ABOUT</a>
         </li>
     </ul>
     <div class="burger-menu">

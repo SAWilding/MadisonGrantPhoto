@@ -1,10 +1,26 @@
 :root {
-    --content-font: sans-serif;
-    --display-font: sans-serif;
+    --content-font: "Modern Sans", sans-serif;
+    --style-font: "Flanella", sans-serif;
     --black: #000000;
     --white: #ffff;
     --off-white: #f3f3f3;
 
+}
+
+@font-face {
+    font-family: "Flanella";
+    src: url("/MadisonGrantPhoto/public/fonts/Flanella.ttf")
+    format("opentype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Modern Sans";
+    src: url("/MadisonGrantPhoto/public/fonts/ModernSans-Light.otf")
+    format("opentype");
+    font-weight: normal;
+    font-style: normal;
 }
 
 /* ==== BASE STYLES ==== */
@@ -13,11 +29,22 @@ body {
     margin: 0;
 }
 
+p {
+    font-family: var(--content-font);
+}
+
+.style-font {
+    font-family: "Flanella", sans-serif;
+}
+
+.content-font {
+    font-family: "Modern Sans", sans-serif;
+}
 
 /* ==== HEADER ==== */
 
 #main-header .nav-menu {
-    background-color: var(--off-white);
+    background-color: white;
     position: fixed;
     top: 0;
     width: 100%;
@@ -27,13 +54,31 @@ body {
 }
 
 #main-header nav a {
+    font-family: var(--content-font);
     color: var(--black);
-    border: 1px solid black;
-    display: block;
+    display: inline-block;
     padding: 0.5rem;
     margin: 5px;
     text-decoration: none;
-    max-width: 50%;
+    position: relative; 
+}
+
+#main-header nav a::after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 0; 
+    position: absolute;
+    background: lightgray;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+#main-header nav a:hover::after {
+    width: 100%;
+    left: 0; 
 }
 
 #main-header ul {
@@ -42,9 +87,14 @@ body {
 }
 
 #main-header ul li {
-    margin: 0 1rem;
+    margin: 1rem 1rem;
     display: block;
     list-style: none;
+}
+
+.logo {
+    display: none;
+    max-width: 80px;
 }
 
 /* === HAMBURGER MENU === */
@@ -83,19 +133,37 @@ p {
 
 /* ==== FOOTER ==== */
 
-#main-footer {
-    margin-top: 0.5rem;
-    color: white;
-    padding: 1rem;
+hr {
+    max-width: 500px;
+    height: 1px;
     background-color: var(--black);
+    border: none;
+    width: 70%;
 }
 
-.social-media h2 {
-    margin: 1rem 0;
-    border-bottom: 1px solid white;
-    max-width: 50%;
+#main-footer {
+    text-align: center;
+    margin-top: 0.5rem;
+    color: var(--black);
+    padding: 1rem;
 }
+
 
 .social-icon img{
-    height: 50px;
+    display: block;
+    margin: 1rem auto;
+    height: 30px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 12pt;
+}
+
+.larger-font {
+    font-size: larger;
+}
+
+.smaller-font {
+    font-size: smaller;
 }

@@ -11,6 +11,7 @@
     <link rel="shortcut icon" href="/MadisonGrantPhoto/public/favicon.ico" type="image/png">
 
     <script type="module" src="/MadisonGrantPhoto/scripts/index.js"></script>
+    <script defer src="/MadisonGrantPhoto/scripts/portfolio.js"></script>
 </head>
 
 <body>

@@ -1,6 +1,6 @@
 @media screen and (min-width: 800px) {
     main {
-        max-width: 1400px;
+        max-width: 1000px;
         margin: 0 auto;
         display: block;
     }
@@ -30,6 +30,10 @@
         display: none;
     }
 
+    .logo {
+        display: block;
+    }
+
     /* ==== HOME ==== */
 
     .testimonials-grid {
@@ -52,17 +56,30 @@
     .about-grid {
         max-width: 1000px;
         margin: auto;
-        display: grid;
-        grid-template-columns: 1fr 2fr;
+        display: flex;
+        align-items: center;
+    }
+
+    .about {
+        margin: 2rem;
     }
 
     img.about-img {
         padding: 1rem;
-        max-height: 500px;
     }
 
     .about-text {
-        margin: 3rem;
+        margin: 0 3rem;
+    }
+
+    section.testimonials {
+        display: block;
+        margin: auto;
+        max-width: 1000px;
+    }
+
+    section.hero {
+        margin-top: 0;
     }
 }
 
